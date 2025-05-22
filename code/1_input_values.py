@@ -1,4 +1,4 @@
-# in this file, we will define the input values for the project
+# in this program, we will define the input values for the project
 # Define the input values
 # Author: Stephen Kerr
 
