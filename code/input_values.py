@@ -5,17 +5,17 @@
 # promopt the user for the input values
 def get_temperature():
     # get the temperature from the user
-    temperature = input("Enter the temperature in degrees Celsius: ")
+    temperature = float(input("Enter the temperature in degrees Celsius: "))
     return temperature
 
 def concentration():
     # get the concentration from the user
-    concentration = input("Enter the concentration in mol/L: ")
+    concentration = float(input("Enter the concentration in mol/L: "))
     return concentration
 
 def get_volume():
     # get the volume from the user
-    volume = input("Enter the volume in L: ")
+    volume = float(input("Enter the volume in L: "))
     return volume
 
 if __name__ == "__main__":

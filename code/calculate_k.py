@@ -1,5 +1,7 @@
 # In this program we will calculate the value of k using the input values
 # and the formula k = k = rate constant (A.eEa/RT) (Arrhenius Equation)
+# Author: Stephen Kerr
+
 
 # import the math module
 import math
@@ -10,7 +12,7 @@ def calculate_k(temperature):
     # where A is the pre-exponential factor, Ea is the activation energy,
     # R is the universal gas constant, and T is the temperature in Kelvin
     # convert the temperature from Celsius to Kelvin
-    temperature = temperature + 273.15
+    temperature = float(temperature) + 273.15
     # define the universal gas constant unit J/(mol.K)
     R = 8.314
     # define the pre-exponential factor unit mol/(L.s)
